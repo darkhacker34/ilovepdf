@@ -266,6 +266,7 @@ HOME = {
 HomeG = { "HomeACB" : { _CHANNEL : f"{str(settings.OWNED_CHANNEL)}",
     _SOURCE : f"{settings.SOURCE_CODE}", _CLOSE : "close|mee" }, "HomeA" : _HOME_A}
 SETTINGS = {
+    "lang" : _SELECT_LANG, "default" : [_DEFAULT, _CUSTOM], "cant" : _CANT_USE, "wait" : { _WAIT : "nabilanavab" },
     "feedbtn" : { _REPORT : settings.REPORT }, "chgLang" : { _SET_LANG : "nabilanavab"}, "askApi" : _ASK_API,
     "result" : [_RES_FAIL, _RES_SUCCESS], "waitApi" : { _OPEN_BROW : "https://www.convertapi.com/a/signin" }, "error" : _ERROR_DB,
     "back" : [{ _BACK_HOME : "Home|B2S" }, { _BACK_HOME : "Home|B2A" }], "feedback" : _LANG_FEED, "ask" : [_SEND, _SEND_FAST],
