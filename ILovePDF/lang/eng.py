@@ -12,11 +12,17 @@ _RESTART = "☠ `𝐎𝐕𝐄𝐑𝐋𝐎𝐀𝐃 𝐃𝐄𝐂𝐓𝐄𝐂𝐓�
 _STOP = "Hey {}!\nThe {} is here to make your life easier,\n\n`but unfortunately. It's currently experiencing some server-side maintenance.`\n\n__No need to worry though, just click the button below, and I'll let you know as soon as it's back up and running smoothly.__"
 _STOP_CB_ = "🔔 Ping me when it's UP 🔔"
 _SETTINGS = "⚙️ SETTINGS ⚙️"
+_LANGUAGE = "🌍 LANGUAGE 🌍"
+_HELP = "📚 HELP 📚"
 _CHANNEL = "📢 CHANNEL 📢"
+_SOURCE = "🌟 SOURCE CODE 🌟"
+_ADD_GROUP = "➕ ADD IN GROUP ➕"
 _THUMB = "THUMBNAIL"
 _NAME = "NAME"
+_API = "API"
 _CAPTION = "CAPTION"
 _BACK_HOME = "« BACK TO HOME «"
+_INSTRUCTIONS = "🛈 INSTRUCTIONS 🛈"
 _HOME_A = "Hey {}..!!\nWelcome to {}.!\n\nWith this tool, you can easily convert images to PDF, compress PDF files, split , merge, encrypt or decrypt PDFs, rotate PDF pages, and much more.\n\nSimply send me a PDF/IMAGE and I will perform the requested actions. For help select '⚠️ HELP ⚠️' at any time. The PDF bot is here to make your life easier..\n\nTry it out now and see how it can help you with all of your PDF needs!"
 _HOME_B = "SETTINGS PAGE ⚙️\n\nUSER NAME   : {}\nUSER ID           : {}\nUSERNAME    : {}\nJOIN DATE      : {}\n\nLANGUAGE    : {}\nAPI                    : {}\nTHUMB            : {}\nCAPTION         : {}\nFILE NAME      : {}"
 _HOME_C = "**Some of the main features are:**\n\n ◍ ```Create a PDF from your images: simply send it in bot pms [png, jpg, jpeg]```\n ◍ ```Extract the text from the PDF: Helps to extract the text from the PDF file and send as separate message.```\n ◍ ```Convert the PDF to another file format: [images, txt, html, json, tar, rar]```\n ◍ ```Merge multiple PDFs into one: Multiple PDF files to combine into a single file```\n ◍ ```Split a PDF into separate pages: Large PDF file to split it into separate ones```\n ◍ ```Extract images from the PDF: [all,range,pages] as image, doc, zip, rar```\n ◍ ```Helps to reduce size by optimizing the images. Useful in sending file via email when it's too large```\n ◍ ```Fetches Metadata: title of the document, the author, the subject, the keywords associated with the document, and the creation and modification dates```\n ◍ ```Encrypt/Decrypt Pdfs Using passwords, Websites to Pdf, Rotate, Rename, stamb..```\n ◍ ```WaterMark, Combine, Zoom, Draw, Add/Delete pages, Ocr pdf..```\n ◍ ```text messages to pdf files, and Much More.. 😎```"
@@ -250,17 +256,16 @@ _BUY_ME_A_COFFEE = "☕ buy me a coffee ☕"
 _STOP_CB = { _STOP_CB_ : "ping_me"}
 RESTART = { "msg" : _RESTART, "btn" : { _CLOSE : "close|mee" }}
 HOME = {
-    "HomeA" : _HOME_A, "HomeB" : _HOME_B, "HomeC" : _HOME_C, "HomeD" : _HOME_D, "search" : [_SEARCH_PDF, _BETA_MSG],
-    "HomeACB" : { _SETTINGS : "Home|B", _LANGUAGE : "set|lang", _HELP : "Home|C", _CHANNEL : f"{str(settings.OWNED_CHANNEL)}",
-                 _SOURCE : f"{str(settings.SOURCE_CODE)}", _ADD_GROUP : "https://t.me/{}?startgroup=True" },
-    "HomeAdminCB" : { _SETTINGS : "Home|B", _LANGUAGE : "set|lang", _HELP : "Home|C",
-        "📊 SᴛᴀᴛᴜS" : f"status|home", _ADD_GROUP : "https://t.me/{}?startgroup=True", _CLOSE : "close|mee" },
-    "HomeBCB" : { _THUMB : "set|thumb", _NAME : "set|fname", _API : "set|api", _CAPTION : "set|capt", _BACK_HOME : "Home|B2A" },
-    "HomeCCB" : { _BACK_HOME : "Home|A", _INSTRUCTIONS : "Home|D" }, "HomeDCB" : { _HELP : "Home|C", _BACK_HOME : "Home|A" } }
-HomeG = { "HomeACB" : { _LANGUAGE : "set|lang", _HELP : "Home|C", _CHANNEL : f"{str(settings.OWNED_CHANNEL)}",
+    "HomeA" : _HOME_A, "HomeB" : _HOME_B, "HomeC" : _HOME_C, "HomeD" : _HOME_D,
+    "HomeACB" : { _SETTINGS : "Home|B", _CHANNEL : f"{str(settings.OWNED_CHANNEL)}",
+                 _SOURCE : f"{str(settings.SOURCE_CODE)}"},
+    "HomeAdminCB" : { _SETTINGS : "Home|B",
+        "📊 SᴛᴀᴛᴜS" : f"status|home", _CLOSE : "close|mee" },
+    "HomeBCB" : { _THUMB : "set|thumb", _NAME : "set|fname", _CAPTION : "set|capt", _BACK_HOME : "Home|B2A" },
+    "HomeCCB" : { _BACK_HOME : "Home|A"}, "HomeDCB" : { _BACK_HOME : "Home|A" } }
+HomeG = { "HomeACB" : { _CHANNEL : f"{str(settings.OWNED_CHANNEL)}",
     _SOURCE : f"{settings.SOURCE_CODE}", _CLOSE : "close|mee" }, "HomeA" : _HOME_A}
 SETTINGS = {
-    "lang" : _SELECT_LANG, "default" : [_DEFAULT, _CUSTOM], "cant" : _CANT_USE, "wait" : { _WAIT : "nabilanavab" },
     "feedbtn" : { _REPORT : settings.REPORT }, "chgLang" : { _SET_LANG : "nabilanavab"}, "askApi" : _ASK_API,
     "result" : [_RES_FAIL, _RES_SUCCESS], "waitApi" : { _OPEN_BROW : "https://www.convertapi.com/a/signin" }, "error" : _ERROR_DB,
     "back" : [{ _BACK_HOME : "Home|B2S" }, { _BACK_HOME : "Home|B2A" }], "feedback" : _LANG_FEED, "ask" : [_SEND, _SEND_FAST],
@@ -268,11 +273,9 @@ SETTINGS = {
                { _SET_THUMB : "nabilanavab", _CHANGE : "set|thumb+", _DELETE : "set|thumb-", _BACK_HOME : "Home|B2S"}],
     "fname" : [{ _SET_NAME : "nabilanavab", _ADD : "set|fname+", _BACK_HOME : "Home|B2S"},
                {_SET_NAME : "nabilanavab", _CHANGE : "set|fname+", _DELETE : "set|fname-", _BACK_HOME : "Home|B2S"}],
-    "api" : [{ _SET_API : "nabilanavab", _ADD : "set|api+", _BACK_HOME : "Home|B2S"},
-             { _SET_API : "nabilanavab", _CHANGE : "set|api+", _DELETE : "set|api-", _BACK_HOME : "Home|B2S"}],
     "capt" : [{ _SET_CAPT : "nabilanavab", _ADD : "set|capt+", _BACK_HOME : "Home|B2S"},
               { _SET_CAPT : "nabilanavab", _CHANGE : "set|capt+", _DELETE : "set|capt-", _BACK_HOME : "Home|B2S"}] }
-BOT_COMMAND = { "start" : _START, "txt2pdf" : _TXT2PDF }
+BOT_COMMAND = { "start" : _START }
 COFFEE = "https://www.buymeacoffee.com/nihaal"
 STATUS_MSG = {
     "_HOME" : {
@@ -325,7 +328,7 @@ DOCUMENT = {
     "download" : _START_DOWNL, "refresh" : { _REFRESH : "{}" }, "dlImage" : _DL_IMG, "noAPI" : _NO_API, "error" : _ERROR,
     "takeTime" : _TAKE_TIME, "fromFile" : _CONVERT, "unsupport" : _UNSUPPORT, "cancelCB" : { _CANCEL : "close|me" }, "generate" : { _GENERATE : "generate" },
     "generateRN" : { _GENERATE : "generate", _RENAME : "generateREN" }, "setHdImg" : _HD, "setDefault" : { _BACK_DEFAULT : "close|hd" }, "useDOCKER" : _NOT_DOKR,
-    "bigCB" : { _BIG_SUPP : "https://github.com/nabilanavab/ilovepdf" }, "imageAdded" : _IMG_ADDED}
+    "bigCB" : { _BIG_SUPP : "https://github.com/darkhacker34/ilovepdf" }, "imageAdded" : _IMG_ADDED}
 AIO = {
     "true" : _TRUE, "false" : _FALSE, "aio" : _PASS_REQUIRED, "waitPASS" : _WAIT_TXT, "passMSG" : _AIO_QN,
     "aio_button" : {_HELP :"nabilanavab|aioInput", _YES:"aioInput|enc", _NO :"aioInput|dec", _MOVE :"aioInput|dec" },
@@ -356,20 +359,6 @@ INDEX = {
     "sizeLoad" : _SIZE_LOAD, "mergeDl" : _MERGE_DL, "merge" : _START_MERGE, "watermark_txt" : _WATERMARK_TXT, "watermark_pdf" : _WATERMARK_PDF,
     "watermark_img" : _WATERMARK_IMG, "adding_wa" : _ADD_WATERMARK, "readAgain" : _READ_AGAIN, "zipTAR" : _ZIP_CONVERT, "aio" : _AIO_PROCESS,
     "pyromodASK_4" : _ASK_PG_, "pdfSplitError" : _ASK_PGERROR}
-INLINE = {
-    "search" : _SEARCH, "openBot" : _OPEN_BOT, 'query' : _TOTAL, 'lang_t' : _SET_LANG, "lang_d" : _LANG, 'caption' : _INLINE_CAP,
-    "lang_b" : { _SELECT_LANG : "nabilanavab" }, 'sear_t' : _SEARCH_PDF, 'sear_d' : _SEARCH_DES, 'noDB' : '🏃‍♂️🏃‍♂️', 'refer_t' : _REFER_T,
-    'min' : _MIN_SEARCH, 'process' : _PROCESSING, 'nothing' : _NO_RESULT, "select" : _GET_PDF, 'description' : _INLINE_DES,
-    'cbNotU' : BAN['cbNotU'], 'old' : _OLD_QUEUE, 'inWork' : _W_I_P, 'edit' : [_GET_PDF, _SEARCH_PDF, _OPEN_BOT], 'refer_d' : _REFER_D,}
-BETA = {"cant": _CANT_USE, 'refer': _REFER, 'nowbeta': _NOW_BETA, 'nownotbeta': _NOW_NOT_BETA }
-pdf2TXT = {
-    "upload" : DOCUMENT['upFile'], "exit" : _EXIT, "nothing" : _NOTHING, "TEXT" : _TEXT2PDF, "start" : _TEXT2PDF_S,  "askC" : _TEXT2PDF_P,
-    "fifteen" : { "{}" : "nabilanavab", "1" : "{}|1", "2" : "{}|2", "3" : "{}|3", "4" : "{}|4", "5" : "{}|5", "6" : "{}|6", "7" : "{}|7",
-    "8" : "{}|8", "9" : "{}|9", "10" : "{}|10","11" : "{}|11", "12" : "{}|12", "13" : "{}|13", "14" : "{}|14", "15" : "{}|15", 
-    _USE_DEFAULT : "{}|_"}, "askT" : _TEXT2PDF_T, "size_btn" : {_SELECT_SCALE : "nabilanavab", "1" : "t2p|1", "2" : "t2p|2", _CLOSE : "close|me"},
-    "six_" : { "{}" : "nabilanavab", "1" : "{}|1:", "2" : "{}|2:", "3" : "{}|3:", "4" : "{}|4:", "5" : "{}|5:", "+" : "{}|6:", _USE_DEFAULT : "{}|_:"},
-    "six" : { "{}" : "nabilanavab", "1" : "{}|1", "2" : "{}|2", "3" : "{}|3", "4" : "{}|4", "5" : "{}|5", "6" : "{}|6", _USE_DEFAULT : "{}|_"},
-    "error" : _ERROR }
 HELP = {}
 
 # If you have any questions or suggestions, please feel free to reach out.
