@@ -260,7 +260,7 @@ HOME = {
     "HomeACB" : { _SETTINGS : "Home|B", _LANGUAGE : "set|lang", _HELP : "Home|C", _CHANNEL : f"{str(settings.OWNED_CHANNEL)}",
                  _SOURCE : f"{str(settings.SOURCE_CODE)}", _ADD_GROUP : "https://t.me/{}?startgroup=True" },
     "HomeAdminCB" : { _SETTINGS : "Home|B", _LANGUAGE : "set|lang", _HELP : "Home|C",
-        "🗽 STATUS 🗽" : f"status|home", _ADD_GROUP : "https://t.me/{}?startgroup=True", _CLOSE : "close|mee" },
+        "📊 SᴛᴀᴛᴜS" : f"status|home", _ADD_GROUP : "https://t.me/{}?startgroup=True", _CLOSE : "close|mee" },
     "HomeBCB" : { _THUMB : "set|thumb", _NAME : "set|fname", _API : "set|api", _CAPTION : "set|capt", _BACK_HOME : "Home|B2A" },
     "HomeCCB" : { _BACK_HOME : "Home|A", _INSTRUCTIONS : "Home|D" }, "HomeDCB" : { _HELP : "Home|C", _BACK_HOME : "Home|A" } }
 HomeG = { "HomeACB" : { _LANGUAGE : "set|lang", _HELP : "Home|C", _CHANNEL : f"{str(settings.OWNED_CHANNEL)}",
@@ -282,8 +282,9 @@ BOT_COMMAND = { "start" : _START, "txt2pdf" : _TXT2PDF }
 COFFEE = "https://www.buymeacoffee.com/nihaal"
 STATUS_MSG = {
     "_HOME" : {
-        "📊 ↓ SERVER ↓ 📊" : "nabilanavab", "💾 Sᴛᴏʀᴀɢᴇ" : "status|server", "🗄️ DᴀᴛᴀBᴀsᴇ" : "status|db",
-         "🌟 AᴅᴍɪɴS" : "status|admin", "👤 UsᴇʀS" : "status|users", _BACK_HOME : "Home|A"},
+        "💾 Sᴛᴏʀᴀɢᴇ" : "status|server", "🗄️ DᴀᴛᴀBᴀsᴇ" : "status|db",
+         "🌟 AᴅᴍɪɴS" : "status|admin", "👤 UsᴇʀS" : "status|users", 
+        _BACK_HOME : "Home|A"},
     "DB" : """📂 DᴀᴛᴀBᴀsᴇ :\n\n**◍ Database Users :** `{}` \n**◍ Database Chats :** `{}` """,
     "SERVER" : "**◍ Total Space     :** `{}`\n**◍ Used Space     :** `{}({}%)`\n**◍ Free Space      :** `{}`\n**◍ CPU Usage      :** `{}%`\n"
                "**◍ RAM Usage     :** `{}`%\n**◍ Current Work  :** `{}`\n**◍ Message Id     :** `{}`",
@@ -296,7 +297,7 @@ BAN = {
     "banCB" : {_CREATE_BOT : f"{settings.SOURCE_CODE}", _SOURCE : f"{settings.SOURCE_CODE}", _CHANNEL : "https://t.me/MV_Rockers"}}
 PDF_MESSAGE = {
     "pg" : _PG_NUM , "pdf" : _PDF_REPLY, "encryptCB" : { _DECRYPT : "#decrypt", _CLOSE : "close|all" },
-    "pdf_button" : { _MERGE[1:] : "#merge", _RENAME[1:] : "#rename", _MORE : "pdf|more", _CLOSE : "close|all" },
+    "pdf_button" : { _MERGE[1:] : "#merge", _RENAME[1:] : "#rename" , _CLOSE : "close|all" },
     "all_pdf_button" : { _MERGE[1:] : "#merge", _RENAME[1:] : "#rename", _CLOSE : "close|all" },
     "error" : _CODEC, "errorCB" : { _CODEC_CB : "error", _CLOSE : "close|all" }, "encrypt" : _ENCRYTED_FILE,}
 BUTTONS = {
