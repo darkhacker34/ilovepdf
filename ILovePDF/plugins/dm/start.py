@@ -90,19 +90,7 @@ async def start(bot, message):
             reply_markup=tBTN,
             caption=tTXT.format(message.from_user.mention, myID[0].mention),
         )
-        await message.reply_sticker(
-            sticker="CAACAgIAAxkBAAEVZ65kduZn7WTQXlyDFErYqb0BvyoIEQACVQADr8ZRGmTn_PAl6RC_LwQ",
-            reply_markup=InlineKeyboardMarkup(
-                [
-                    [InlineKeyboardButton(
-                        
-                        text=tTXT[0], switch_inline_query_current_chat=""
-                    )
-                    ],
-                
-                ]
-            ),
-        )
+        
         if "-" in message.text and get_pdf:
             await decode(bot, get_pdf, message, lang_code)
         return await message.delete()
