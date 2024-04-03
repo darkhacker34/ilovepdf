@@ -12,7 +12,7 @@ iLovePDF = '''
  | | | |__/ _ \ V / -_) |  _/| |) |  _|  
  |_| |___,\___/\_/\___| |_|  |___/|_|    
                          😎 [NɪʜᴀL] 
-                         📩 Email: nabilanavab@gmail.com
+                         📩 Email: nihalthoppil16@gmail.com
                          📞 Telegram: @nihh_all
 '''
 
