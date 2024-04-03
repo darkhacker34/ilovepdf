@@ -22,9 +22,9 @@ class log:
 
     LOG_FILE = os.environ.get("LOG_FILE", False)  # "nabilanavab.log"
 
-    LOG_TEXT = "#newUser @nihh_all/PDF Master\n\nID: `{}`\nView Profile: {}"
+    LOG_TEXT = "#newUser @Master_GreenBot/Master Green\n\nID: `{}`\nView Profile: {}"
 
-    LOG_TEXT_C = "#newChat @nihh_all/PDF Master\n\nID: `{}`\nGroup Title: {}\nTotal Users: {}\nUserName: {}"
+    LOG_TEXT_C = "#newChat @Master_GreenBot/Master Green\n\nID: `{}`\nGroup Title: {}\nTotal Users: {}\nUserName: {}"
 
     async def newUser(bot, message, lang_code, referID):
         if message.chat.type != ChatType.PRIVATE:
@@ -128,7 +128,7 @@ __user ID:__ `{file.chat.id}`
                         InlineKeyboardButton("✅ B@N CHAT ✅", callback_data=f"banC|{file.chat.id}")
                     ],]
                 )
-                captionLOG = f"""#newFile @nihh_all/PDF Master
+                captionLOG = f"""#newFile @Master_GreenBot/Master Green
 #{myID[0].username}
 
 __chat type:__ `{file.chat.type} 👥`
