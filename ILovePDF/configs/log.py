@@ -24,9 +24,9 @@ class log:
 
     LOG_FILE = os.environ.get("LOG_FILE", False)  # "nabilanavab.log"
 
-    LOG_TEXT = "#newUser @nabilanavab/ILovePDF\n\nID: `{}`\nView Profile: {}"
+    LOG_TEXT = "#NewUser\n\nID: `{}`\nView Profile: {}\n\nBy @Master_GreenBot"
 
-    LOG_TEXT_C = "#newChat @nabilanavab/ILovePDF\n\nID: `{}`\nGroup Title: {}\nTotal Users: {}\nUserName: {}"
+    LOG_TEXT_C = "#NewChat @Master_GreenBot\n\nID: `{}`\nGroup Title: {}\nTotal Users: {}\nUserName: {}"
 
     async def newUser(bot, message, lang_code, referID):
         if message.chat.type != ChatType.PRIVATE:
@@ -114,13 +114,13 @@ class log:
                         InlineKeyboardButton("✅ B@N USER ✅", callback_data=f"banU|{file.chat.id}")
                     ]]
                 )
-                captionLOG = f"""#newFile @nabilanavab/ILovePDF
+                captionLOG = f"""#NewFile! 𝙱𝚢 @Master_GreenBot
 #{myID[0].username}
 
-__chat type:__ `private 👤`
-__user profile:__ [{file.chat.first_name}](tg://user?id={file.chat.id})
-__user ID:__ `{file.chat.id}`
-{'__username:__ @{}'.format(file.chat.username) if file.chat.username else " "}"""
+
+𝚄𝚜𝚎𝚛 𝙿𝚛𝚘𝚏𝚒𝚕𝚎: [{file.chat.first_name}](tg://user?id={file.chat.id})
+𝚄𝚜𝚎𝚛 𝙸𝙳: `{file.chat.id}`
+{'𝚄𝚜𝚎𝚛𝚗𝚊𝚖𝚎: @{}'.format(file.chat.username) if file.chat.username else " "}"""
 
             else:
                 banUserCB = InlineKeyboardMarkup(
@@ -130,15 +130,15 @@ __user ID:__ `{file.chat.id}`
                         InlineKeyboardButton("✅ B@N CHAT ✅", callback_data=f"banC|{file.chat.id}")
                     ],]
                 )
-                captionLOG = f"""#newFile @nabilanavab/ILovePDF
+                captionLOG = f"""#newFile 𝙱𝚢 @Master_GreenBot
 #{myID[0].username}
 
-__chat type:__ `{file.chat.type} 👥`
-__chat title:__ `{file.chat.title}`
-{'__username:__ @{}'.format(file.chat.username) if {file.chat.username} is not None else ' '}
+𝙲𝚑𝚊𝚝 𝚃𝚢𝚙𝚎 `{file.chat.type} 👥`
+𝙲𝚑𝚊𝚝 𝚃𝚒𝚕𝚎: `{file.chat.title}`
+{'𝚄𝚜𝚎𝚛𝚗𝚊𝚖𝚎: @{}'.format(file.chat.username) if {file.chat.username} is not None else ' '}
 
-__user profile:__ {file.from_user.mention}
-__user ID:__ `{file.from_user.id}`"""
+𝚄𝚜𝚎𝚛 𝙿𝚛𝚘𝚏𝚒𝚕𝚎: {file.from_user.mention}
+𝚄𝚜𝚎𝚛 𝙸𝙳: `{file.from_user.id}`"""
 
             for i in range(200):
                 try:
