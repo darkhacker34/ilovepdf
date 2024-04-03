@@ -36,16 +36,16 @@ class group(object):
 class images(object):
     # DEFAULT THUMBNAIL ❌ NB: Thumbnails can’t be reused and can be only uploaded as a new file ❌
     PDF_THUMBNAIL = None  # "./images/thumbnail.jpeg"   PDF_THUMBNAIL & THUMBNAIL_URL must point same img
-    THUMBNAIL_URL = "https://te.legra.ph/file/8dfa3760df91a218a629c.jpg"  # to inc. meadia edit speed
+    THUMBNAIL_URL = "https://telegra.ph/file/fc399dd7bc7fa5b4a8dec.jpg"  # to inc. meadia edit speed
 
     # WELCOME IMAGE
-    WELCOME_PIC = "https://te.legra.ph/file/8dfa3760df91a218a629c.jpg"
+    WELCOME_PIC = "https://telegra.ph/file/fc399dd7bc7fa5b4a8dec.jpg"
 
     # BANNED IMAGE
-    BANNED_PIC = "https://te.legra.ph/file/8dfa3760df91a218a629c.jpg"
+    BANNED_PIC = "https://telegra.ph/file/fc399dd7bc7fa5b4a8dec.jpg"
 
     # BIG FILE
-    BIG_FILE = "https://te.legra.ph/file/8dfa3760df91a218a629c.jpg"
+    BIG_FILE = "https://telegra.ph/file/fc399dd7bc7fa5b4a8dec.jpg"
 
 class settings(object):
 
