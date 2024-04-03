@@ -3,10 +3,10 @@
 
 file_name = "ILovePDF/plugins/__init__.py"
 
-__author__ = "nabilanavab"
-__email__ = "nabilanavab@gmail.com"
-__telegram__ = "telegram.dog/nabilanavab"
-__copyright__ = "Copyright 2021, nabilanavab"
+__author__ = "darkhacker34"
+__email__ = "nihalthoppil16@gmail.com"
+__telegram__ = "telegram.dog/nihh_all"
+__copyright__ = "Copyright 2024, darkhacker34"
 
 import os, asyncio, time
 from logger import logger
@@ -18,9 +18,9 @@ iLovePDF = '''
  | | | |   _____ _____  | _ \|   \|  __| 
  | | | |__/ _ \ V / -_) |  _/| |) |  _|  
  |_| |___,\___/\_/\___| |_|  |___/|_|    
-                         ❤ [Nabil A Navab] 
-                         ❤ Email: nabilanavab@gmail.com
-                         ❤ Telegram: @nabilanavab
+                         😎 [Nihal] 
+                         💌 Email: nihalthoppil16@gmail.com
+                         📞 Telegram: @nihh_all
 '''
 
 __all__ = [
