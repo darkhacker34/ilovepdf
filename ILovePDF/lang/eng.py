@@ -282,9 +282,9 @@ BOT_COMMAND = { "start" : _START, "txt2pdf" : _TXT2PDF }
 COFFEE = "https://www.buymeacoffee.com/nihaal"
 STATUS_MSG = {
     "_HOME" : {
-        "📊 ↓ SERVER ↓ 📊" : "nabilanavab", "📶 STORAGE 📶" : "status|server", "🥥 DATABASE 🥥" : "status|db",
-        "🌝 ↓ GET LIST ↓ 🌝": "nabilanavab", "💎 ADMIN 💎" : "status|admin", "👤 USERS 👤" : "status|users", _BACK_HOME : "Home|A"},
-    "DB" : """📂 DATABASE :\n\n**◍ Database Users :** `{}` 📍\n**◍ Database Chats :** `{}` 📍""",
+        "📊 ↓ SERVER ↓ 📊" : "nabilanavab", "💾 Sᴛᴏʀᴀɢᴇ" : "status|server", "🗄️ DᴀᴛᴀBᴀsᴇ" : "status|db",
+         "🌟 AᴅᴍɪɴS" : "status|admin", "👤 UsᴇʀS" : "status|users", _BACK_HOME : "Home|A"},
+    "DB" : """📂 DᴀᴛᴀBᴀsᴇ :\n\n**◍ Database Users :** `{}` \n**◍ Database Chats :** `{}` """,
     "SERVER" : "**◍ Total Space     :** `{}`\n**◍ Used Space     :** `{}({}%)`\n**◍ Free Space      :** `{}`\n**◍ CPU Usage      :** `{}%`\n"
                "**◍ RAM Usage     :** `{}`%\n**◍ Current Work  :** `{}`\n**◍ Message Id     :** `{}`",
     "USERS" : "Users in Database are.", "NO_DB" : "No dataBASE set Yet 💩", "ADMIN" : "**Total ADMIN:** __{}__\n",
@@ -293,18 +293,11 @@ feedbackMsg = { "message": f"{_FEEDBACK}", "button": { _BUY_ME_A_COFFEE : COFFEE
 BAN = {
     "UCantUse" : _BAN, "UCantUseDB" : _BAN + _REASON, "GroupCantUse" : _BAN_G, "GroupCantUseDB" : _BAN_G + _REASON,
     "cbNotU" : _BAN_CB, "Fool" : _FOOL, "Force" : _FORCE, "ForceCB" : { _JOIN_CHANNEL : "{0}", _REFRESH : "refresh{1}" },
-    "banCB" : {_CREATE_BOT : f"{settings.SOURCE_CODE}", _SOURCE : f"{settings.SOURCE_CODE}", _CHANNEL : "https://t.me/ilovepdf_bot"}}
+    "banCB" : {_CREATE_BOT : f"{settings.SOURCE_CODE}", _SOURCE : f"{settings.SOURCE_CODE}", _CHANNEL : "https://t.me/MV_Rockers"}}
 PDF_MESSAGE = {
     "pg" : _PG_NUM , "pdf" : _PDF_REPLY, "encryptCB" : { _DECRYPT : "#decrypt", _CLOSE : "close|all" },
-    "pdf_button" : { _META[1:] : "#metadata", _PREVIEW[1:] : "#preview", _ENCRYPT[1:] : "#encrypt", _DECRYPT[1:] : "#decrypt", _SPLIT[1:] : "#split",
-        _MERGE[1:] : "#merge", _RENAME[1:] : "#rename", _URL[1:] : "link", _WATERMARK[1:] : "pdf|wa", _STAMP[1:] : "pdf|stp", 
-        _IMAGE[1:] : "pdf|img", _TEXT[1:] : "pdf|txt", _COMPRESS[1:] : "#compress", _MORE : "pdf|more", _CLOSE : "close|all" },
-    "all_pdf_button" : { _META[1:] : "#metadata", _PREVIEW[1:] : "#preview", _ENCRYPT[1:] : "#encrypt", _DECRYPT[1:] : "#decrypt",
-        _SPLIT[1:] : "#split", _MERGE[1:] : "#merge", _RENAME[1:] : "#rename", _URL[1:] : "link", _WATERMARK[1:] : "pdf|wa",
-        _STAMP[1:] : "pdf|stp", _IMAGE[1:] : "pdf|img", _TEXT[1:] : "pdf|txt", _COMPRESS[1:] : "#compress", _OCR[1:] : "#ocr",
-        _ROTATE[1:] : "pdf|rotate", _FORMAT[1:] : "pdf|format", _ADD_PG[1:] : "close|dev", _DEL_PG[1:] : "#deletePg",
-        _FILTER[1:] : "pdf|filter", _ZOOM[1:] : "#zoom", _PART_PDF[1:] : "#partPDF", _REMOVE_LINKS[1:] : "#urlRemover",
-        _HEADER[1:] : "close|dev", _FOOTER[1:] : "close|dev", _ADD_PGNUM[1:] : "close|dev", _LESS : "pdf", _CLOSE : "close|all" },
+    "pdf_button" : { _MERGE[1:] : "#merge", _RENAME[1:] : "#rename", _MORE : "pdf|more", _CLOSE : "close|all" },
+    "all_pdf_button" : { _MERGE[1:] : "#merge", _RENAME[1:] : "#rename", _CLOSE : "close|all" },
     "error" : _CODEC, "errorCB" : { _CODEC_CB : "error", _CLOSE : "close|all" }, "encrypt" : _ENCRYTED_FILE,}
 BUTTONS = {
     "format" : { _HELP : "nabilanavab|format", "1 × 1" : "#1-format", "✌ 1 × 2 ✌" : "#2-format-H", "✌ 2 × 1 ✌" : "#2-format-V",
