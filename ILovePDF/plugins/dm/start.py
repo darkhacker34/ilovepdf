@@ -95,12 +95,12 @@ async def start(bot, message):
             sticker="CAACAgIAAxkBAAEVZ65kduZn7WTQXlyDFErYqb0BvyoIEQACVQADr8ZRGmTn_PAl6RC_LwQ",
             reply_markup=InlineKeyboardMarkup(
                 [
-                    [
-                        InlineKeyboardButton(
-                            text=tTXT[0], switch_inline_query_current_chat=""
-                        )
+                    [InlineKeyboardButton(
+                        
+                        text=tTXT[0], switch_inline_query_current_chat=""
+                    )
                     ],
-                    [InlineKeyboardButton(text=tTXT[1], callback_data="beta")],
+                
                 ]
             ),
         )
