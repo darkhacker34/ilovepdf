@@ -53,7 +53,7 @@ _START = "Welcome message.."
 _TXT2PDF = "Create text PDF's"
 _FEEDBACK = "Your donation fuels the bot's growth. 🚀\n\nGive generously. No amount is too small 🍟"
 _PG_NUM = "`Number of Pages: •{}•` 🌟" # always add • before and after pg number
-_PDF_REPLY = "`What should I do with this file.?`\n\nFile Name : `{}`\nFile Size : `{}`"
+_PDF_REPLY = "𝗪𝗵𝗮𝘁 𝗦𝗵𝗼𝘂𝗹𝗱 𝗜 𝗗𝗼 𝗪𝗶𝘁𝗵 𝗧𝗵𝗶𝘀 𝗙𝗶𝗹𝗲.?\n\n𝙵𝚒𝚕𝚎 𝙽𝚊𝚖𝚎 : `{}`\n𝙵𝚒𝚕𝚎 𝚂𝚒𝚣𝚎 : `{}`"
 _META = "⭐ PDF META£ATA ⭐"
 _PREVIEW = "📸 PDF  PREVIEW 📸"
 _IMAGE = "🖼️ PDF TO IMAGES 🖼"
@@ -203,7 +203,7 @@ _MORE_PGS = "It contains too many pages, send me a pdf fewer than 5 pages 😐"
 _YOUR_ERROR = "You have some big problem..🙂"
 _OWN_RES = "Owner Restricted 😎🤏"
 _ENCRYPT_CAPT = "__Page Number__: {}\n__key__ 🔐: ||{}||"
-_RENAME_CAPT = "old name: `{}`\nnew name: `{}`"
+_RENAME_CAPT = "Oʟᴅ Nᴀᴍᴇ: `{}`\nNᴇᴡ Nᴀᴍᴇ: `{}`\n\nBy @Master_GreenBot"
 _COMP_CAPT = "Old File Size: `{}`\nNew File size: `{}`\nRatio: `{}`%"
 _COMPLETED_SUCC = "Completed Successfully. 😎"
 _CANCELED_CB = "🍄 CANCELLED 🍄"
@@ -211,7 +211,7 @@ _TOTAL_PG = "`Total pages: {}..⏳`"
 _CANCEL_AT = "`Cancelled at {}/{} pages..` 🙄"
 _UPLOADING_AL = "`Uploading: {}/{} pages.. 🐬`"
 _SIZE_LOAD = "`Due to Overload Bot Only Support %sMb PDFs.."
-_MERGE_DL = "`Downloading {}`"
+_MERGE_DL = "`Downloading... {}`"
 _START_MERGE = "`started merging {} pdfs`"
 _WATERMARK_TXT = "__Now, Send me a Text Message__\n\n/exit : to cancel"
 _WATERMARK_PDF = "__Send me the watermark pdf.__\n\n/exit : to cancel"
@@ -267,13 +267,10 @@ HomeG = { "HomeACB" : { _CHANNEL : f"{str(settings.OWNED_CHANNEL)}",
     _SOURCE : f"{settings.SOURCE_CODE}", _CLOSE : "close|mee" }, "HomeA" : _HOME_A}
 SETTINGS = {
     "lang" : _SELECT_LANG, "default" : [_DEFAULT, _CUSTOM], "cant" : _CANT_USE, "wait" : { _WAIT : "nabilanavab" },
-    "feedbtn" : { _REPORT : settings.REPORT }, "chgLang" : { _SET_LANG : "nabilanavab"}, "askApi" : _ASK_API,
-    "result" : [_RES_FAIL, _RES_SUCCESS], "waitApi" : { _OPEN_BROW : "https://www.convertapi.com/a/signin" }, "error" : _ERROR_DB,
+    "feedbtn" : { _REPORT : settings.REPORT }, "chgLang" : { _SET_LANG : "nabilanavab"}
     "back" : [{ _BACK_HOME : "Home|B2S" }, { _BACK_HOME : "Home|B2A" }], "feedback" : _LANG_FEED, "ask" : [_SEND, _SEND_FAST],
     "thumb" : [{ _SET_THUMB : "nabilanavab", _ADD : "set|thumb+", _BACK_HOME : "Home|B"},
                { _SET_THUMB : "nabilanavab", _CHANGE : "set|thumb+", _DELETE : "set|thumb-", _BACK_HOME : "Home|B2S"}],
-    "capt" : [{ _SET_CAPT : "nabilanavab", _ADD : "set|capt+", _BACK_HOME : "Home|B2S"},
-              { _SET_CAPT : "nabilanavab", _CHANGE : "set|capt+", _DELETE : "set|capt-", _BACK_HOME : "Home|B2S"}] }
 BOT_COMMAND = { "start" : _START }
 COFFEE = "https://www.buymeacoffee.com/nihaal"
 STATUS_MSG = {
