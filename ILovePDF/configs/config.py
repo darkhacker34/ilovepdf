@@ -1,6 +1,3 @@
-# This module is part of https://github.com/nabilanavab/ilovepdf
-# Feel free to use and contribute to this project. Your contributions are welcome!
-# Copyright ©️ 2021 nabilanavab
 
 file_name = "ILovePDF/configs/config.py"
 
@@ -81,15 +78,15 @@ class settings(object):
         True if os.environ.get("MULTI_LANG_SUP", "False") == "True" else False
     )
 
-    REPORT = "https://t.me/ilovepdf_bot/33?comment=1000000000"
+    REPORT = "https://t.me/PreDVD_ChatBot"
 
-    FEEDBACK = "https://telegram.dog/ilovepdf_bot"
+    FEEDBACK = "https://telegram.dog/nihh_all"
 
-    SOURCE_CODE = "https://github.com/nabilanavab/iLovePDF"
+    SOURCE_CODE = "https://telegram.dog/nihh_all"
 
-    OWNER_ID, OWNER_USERNAME = 531733867, "nabilanavab"
+    OWNER_ID, OWNER_USERNAME = 1107626477, "nihh_all"
 
-    OWNED_CHANNEL = "https://telegram.dog/iLovePDF_bot"
+    OWNED_CHANNEL = "https://t.me/MV_Rockers"
 
     REFER_BETA = False if os.environ.get("REFER_BETA", "False") == "False" else True
 
