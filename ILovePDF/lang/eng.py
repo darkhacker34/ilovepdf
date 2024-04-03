@@ -267,7 +267,7 @@ HomeG = { "HomeACB" : { _CHANNEL : f"{str(settings.OWNED_CHANNEL)}",
     _SOURCE : f"{settings.SOURCE_CODE}", _CLOSE : "close|mee" }, "HomeA" : _HOME_A}
 SETTINGS = {
     "lang" : _SELECT_LANG, "default" : [_DEFAULT, _CUSTOM], "cant" : _CANT_USE, "wait" : { _WAIT : "nabilanavab" },
-    "feedbtn" : { _REPORT : settings.REPORT }, "chgLang" : { _SET_LANG : "nabilanavab"}
+    "feedbtn" : { _REPORT : settings.REPORT }, "chgLang" : { _SET_LANG : "nabilanavab"}, "askApi" : _ASK_API,
     "back" : [{ _BACK_HOME : "Home|B2S" }, { _BACK_HOME : "Home|B2A" }], "feedback" : _LANG_FEED, "ask" : [_SEND, _SEND_FAST],
     "thumb" : [{ _SET_THUMB : "nabilanavab", _ADD : "set|thumb+", _BACK_HOME : "Home|B"},
                { _SET_THUMB : "nabilanavab", _CHANGE : "set|thumb+", _DELETE : "set|thumb-", _BACK_HOME : "Home|B2S"}],
