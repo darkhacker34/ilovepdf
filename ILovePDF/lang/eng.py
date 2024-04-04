@@ -261,7 +261,7 @@ HOME = {
     "HomeA" : _HOME_A, "HomeB" : _HOME_B, "HomeC" : _HOME_C, "HomeD" : _HOME_D,
     "HomeACB" : { _CHANNEL : f"{str(settings.OWNED_CHANNEL)}",
                  _SOURCE : f"{str(settings.SOURCE_CODE)}"},
-    "HomeAdminCB" : {"📊 SᴛᴀᴛᴜS" : f"status|home\n", _BUY_ME_A_COFFEE : "https://www.buymeacoffee.com/nihaal", _CLOSE : "close|mee" },
+    "HomeAdminCB" : {"📊 SᴛᴀᴛᴜS" : f"status|home\n", _CREATOR : "https://t.me/nihh_all", _BUY_ME_A_COFFEE : "https://www.buymeacoffee.com/nihaal", _CLOSE : "close|mee" },
     "HomeCCB" : { _BACK_HOME : "Home|A"}, "HomeDCB" : { _BACK_HOME : "Home|A" } }
 
 BOT_COMMAND = { "start" : _START }
