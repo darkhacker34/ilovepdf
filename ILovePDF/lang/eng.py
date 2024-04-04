@@ -266,15 +266,10 @@ HOME = {
     "HomeCCB" : { _BACK_HOME : "Home|A"}, "HomeDCB" : { _BACK_HOME : "Home|A" } }
 HomeG = { "HomeACB" : { _CHANNEL : f"{str(settings.OWNED_CHANNEL)}",
     _SOURCE : f"{settings.SOURCE_CODE}", _CLOSE : "close|mee" }, "HomeA" : _HOME_A}
-SETTINGS = {
-    "lang" : _SELECT_LANG, "default" : [_DEFAULT, _CUSTOM], "cant" : _CANT_USE, "wait" : { _WAIT : "nabilanavab" },
-    "feedbtn" : { _REPORT : settings.REPORT }, "chgLang" : { _SET_LANG : "nabilanavab"}, "askApi" : _ASK_API,
-    "result" : [_RES_FAIL, _RES_SUCCESS], "waitApi" : { _OPEN_BROW : "https://www.convertapi.com/a/signin" }, "error" : _ERROR_DB,
-    "back" : [{ _BACK_HOME : "Home|B2S" }, { _BACK_HOME : "Home|B2A" }], "feedback" : _LANG_FEED, "ask" : [_SEND, _SEND_FAST],
-    "api" : [{ _SET_API : "nabilanavab", _ADD : "set|api+", _BACK_HOME : "Home|B2S"},
-             { _SET_API : "nabilanavab", _CHANGE : "set|api+", _DELETE : "set|api-", _BACK_HOME : "Home|B2S"}],
-    "capt" : [{ _SET_CAPT : "nabilanavab", _ADD : "set|capt+", _BACK_HOME : "Home|B2S"},
-              { _SET_CAPT : "nabilanavab", _CHANGE : "set|capt+", _DELETE : "set|capt-", _BACK_HOME : "Home|B2S"}] }
+CREATOR = {
+    
+}
+    { _SET_CAPT : "nabilanavab", _CHANGE : "set|capt+", _DELETE : "set|capt-", _BACK_HOME : "Home|B2S"}] }
 BOT_COMMAND = { "start" : _START }
 COFFEE = "https://www.buymeacoffee.com/nihaal"
 STATUS_MSG = {
