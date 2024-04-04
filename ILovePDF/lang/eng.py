@@ -17,14 +17,14 @@ _HELP = "📚 HELP 📚"
 _CHANNEL = "📢 CHANNEL 📢"
 _SOURCE = "🌟 SOURCE CODE 🌟"
 _ADD_GROUP = "➕ ADD IN GROUP ➕"
-_THUMB = "THUMBNAIL"
-_NAME = "NAME"
+_THUMB = "𝗖𝗥𝗘𝗔𝗧𝗢𝗥"
+_NAME = "𝗢𝗪𝗡𝗘𝗥"
 _API = "API"
 _CAPTION = "CAPTION"
 _BACK_HOME = "« BACK TO HOME «"
 _INSTRUCTIONS = "🛈 INSTRUCTIONS 🛈"
 _HOME_A = "Hey {}..!!\nWelcome to {}.!\n\nyou can easily Merge PDF Files And Rename it\n\nSimply send me a PDF And I will give Options ✨"
-_HOME_B = "\n\nYᴏᴜʀ Nᴀᴍᴇ   : {}\nYᴏᴜʀ ID           : {}\nUsᴇʀɴᴀᴍᴇ    : {}\nSᴛᴀʀᴛᴇᴅ Dᴀᴛᴇ      : {}"
+_HOME_B = "\n\nYᴏᴜʀ Nᴀᴍᴇ  :      {}\nYᴏᴜʀ ID  :            {}\nUsᴇʀɴᴀᴍᴇ  :        {}\nSᴛᴀʀᴛᴇᴅ Dᴀᴛᴇ  :  {}"
 _HOME_C = "**Some of the main features are:**\n\n ◍ ```Create a PDF from your images: simply send it in bot pms [png, jpg, jpeg]```\n ◍ ```Extract the text from the PDF: Helps to extract the text from the PDF file and send as separate message.```\n ◍ ```Convert the PDF to another file format: [images, txt, html, json, tar, rar]```\n ◍ ```Merge multiple PDFs into one: Multiple PDF files to combine into a single file```\n ◍ ```Split a PDF into separate pages: Large PDF file to split it into separate ones```\n ◍ ```Extract images from the PDF: [all,range,pages] as image, doc, zip, rar```\n ◍ ```Helps to reduce size by optimizing the images. Useful in sending file via email when it's too large```\n ◍ ```Fetches Metadata: title of the document, the author, the subject, the keywords associated with the document, and the creation and modification dates```\n ◍ ```Encrypt/Decrypt Pdfs Using passwords, Websites to Pdf, Rotate, Rename, stamb..```\n ◍ ```WaterMark, Combine, Zoom, Draw, Add/Delete pages, Ocr pdf..```\n ◍ ```text messages to pdf files, and Much More.. 😎```"
 _HOME_D = "`As you know, this is a free service, I cannot guarantee how long I can maintain this service..`😝\n\n ⚠️ INSTRUCTIONS ⚠️:\n ◍ ```Please note that spamming is generally not tolerated and can result in the user or bot being banned from the service```\n ◍ ```Wait for the bot to process the file: The bot will process the PDF file and perform the requested action. This may take a few minutes, depending on the size of the file and the complexity of the action being performed.```\n ◍ ```Once the bot has completed the action, it will send you the results. If the action was successful, you will receive the output. If the action was not successful, the bot will let you know and provide any relevant error messages.```\n ◍ ```Any user found to be distributing or sharing pornographic content on the bot will be permanently banned```\n**Send any image to start:** 😁"
 _SELECT_LANG = "Now, Select any language.."
@@ -250,6 +250,8 @@ _ASK_PG = "Now, please enter the number.\n\n🤠 If you enter an integer, the PD
 _ASK_PGERROR = "`Invalid syntax for page number`\n`NB: Pdf only have {} pages` ⭐.\n\nError: `{}`"
 _PART_PDF = "🍑 PART PDF 🍑"
 _REMOVE_LINKS = "🔏 REMOVE LINKS 🔏"
+_OWNER = "𝗢𝗪𝗡𝗘𝗥"
+_CREATOR = "𝗖𝗥𝗘𝗔𝗧𝗢𝗥"
 _BUY_ME_A_COFFEE = "☕ buy me a coffee ☕"
 
 
@@ -269,10 +271,8 @@ SETTINGS = {
     "feedbtn" : { _REPORT : settings.REPORT }, "chgLang" : { _SET_LANG : "nabilanavab"}, "askApi" : _ASK_API,
     "result" : [_RES_FAIL, _RES_SUCCESS], "waitApi" : { _OPEN_BROW : "https://www.convertapi.com/a/signin" }, "error" : _ERROR_DB,
     "back" : [{ _BACK_HOME : "Home|B2S" }, { _BACK_HOME : "Home|B2A" }], "feedback" : _LANG_FEED, "ask" : [_SEND, _SEND_FAST],
-    "thumb" : [{ _SET_THUMB : "nabilanavab", _ADD : "set|thumb+", _BACK_HOME : "Home|B"},
-               { _SET_THUMB : "nabilanavab", _CHANGE : "set|thumb+", _DELETE : "set|thumb-", _BACK_HOME : "Home|B2S"}],
-    "fname" : [{ _SET_NAME : "nabilanavab", _ADD : "set|fname+", _BACK_HOME : "Home|B2S"},
-               {_SET_NAME : "nabilanavab", _CHANGE : "set|fname+", _DELETE : "set|fname-", _BACK_HOME : "Home|B2S"}],
+    "thumb" : { _CREATOR : "https://t.me/nihh_all"}
+    "fname" : { _OWNER : "https://t.me/master_green_uae" }
     "api" : [{ _SET_API : "nabilanavab", _ADD : "set|api+", _BACK_HOME : "Home|B2S"},
              { _SET_API : "nabilanavab", _CHANGE : "set|api+", _DELETE : "set|api-", _BACK_HOME : "Home|B2S"}],
     "capt" : [{ _SET_CAPT : "nabilanavab", _ADD : "set|capt+", _BACK_HOME : "Home|B2S"},
