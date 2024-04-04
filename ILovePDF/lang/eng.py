@@ -14,7 +14,7 @@ _STOP_CB_ = "🔔 Ping me when it's UP 🔔"
 _SETTINGS = "Iɴғᴏ ℹ️"
 _LANGUAGE = "🌍 LANGUAGE 🌍"
 _HELP = "📚 HELP 📚"
-_CHANNEL = "📢 CHANNEL 📢"
+_CHANNEL = "☕ buy me a coffee ☕"
 _SOURCE = "👤 𝗢𝘄𝗻𝗲𝗿"
 _ADD_GROUP = "➕ ADD IN GROUP ➕"
 _THUMB = "𝗖𝗥𝗘𝗔𝗧𝗢𝗥"
@@ -279,7 +279,7 @@ feedbackMsg = { "message": f"{_FEEDBACK}", "button": { _BUY_ME_A_COFFEE : COFFEE
 BAN = {
     "UCantUse" : _BAN, "UCantUseDB" : _BAN + _REASON, "GroupCantUse" : _BAN_G, "GroupCantUseDB" : _BAN_G + _REASON,
     "cbNotU" : _BAN_CB, "Fool" : _FOOL, "Force" : _FORCE, "ForceCB" : { _JOIN_CHANNEL : "{0}", _REFRESH : "refresh{1}" },
-    "banCB" : {_CREATE_BOT : f"{settings.SOURCE_CODE}", _SOURCE : f"{settings.SOURCE_CODE}", _CHANNEL : "https://t.me/MV_Rockers"}}
+    "banCB" : {_CREATE_BOT : "https://t.me/nihh_all", _SOURCE : "https://t.me/master_green_uae", _CHANNEL : "https://www.buymeacoffee.com/nihaal"}}
 PDF_MESSAGE = {
     "pg" : _PG_NUM , "pdf" : _PDF_REPLY, "encryptCB" : { _DECRYPT : "#decrypt", _CLOSE : "close|all" },
     "pdf_button" : { _MERGE[1:] : "#merge", _RENAME[1:] : "#rename" , _CLOSE : "close|all" },
