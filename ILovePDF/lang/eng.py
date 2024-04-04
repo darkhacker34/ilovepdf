@@ -11,7 +11,7 @@ _CLOSE = "🚶 CLOSE 🚶"
 _RESTART = "☠ `𝐎𝐕𝐄𝐑𝐋𝐎𝐀𝐃 𝐃𝐄𝐂𝐓𝐄𝐂𝐓𝐄𝐃`☠:\n__𝐬𝐞𝐫𝐯𝐞𝐫 𝐫𝐞𝐬𝐭𝐚𝐫𝐭𝐞𝐝__ \n\nI noticed that your work was also in queue\n\nCan you please try again..!"
 _STOP = "Hey {}!\nThe {} is here to make your life easier,\n\n`but unfortunately. It's currently experiencing some server-side maintenance.`\n\n__No need to worry though, just click the button below, and I'll let you know as soon as it's back up and running smoothly.__"
 _STOP_CB_ = "🔔 Ping me when it's UP 🔔"
-_SETTINGS = "⚙️ SETTINGS ⚙️"
+_SETTINGS = "Iɴғᴏ ℹ️"
 _LANGUAGE = "🌍 LANGUAGE 🌍"
 _HELP = "📚 HELP 📚"
 _CHANNEL = "📢 CHANNEL 📢"
@@ -24,11 +24,11 @@ _CAPTION = "CAPTION"
 _BACK_HOME = "« BACK TO HOME «"
 _INSTRUCTIONS = "🛈 INSTRUCTIONS 🛈"
 _HOME_A = "Hey {}..!!\nWelcome to {}.!\n\nyou can easily Merge PDF Files And Rename it\n\nSimply send me a PDF And I will give Options ✨"
-_HOME_B = "SETTINGS ⚙️\n\nUSER NAME   : {}\nUSER ID           : {}\nUSERNAME    : {}\nJOIN DATE      : {}\n\nLANGUAGE    : {}\nCreator                    : {}\nTHUMB            : {}\nCAPTION         : {}"
+_HOME_B = "Sᴇᴛᴛɪɴɢs ⚙️\n\nYᴏᴜʀ Nᴀᴍᴇ   : {}\nYᴏᴜʀ ID           : {}\nUsᴇʀɴᴀᴍᴇ    : {}\nSᴛᴀʀᴛᴇᴅ Dᴀᴛᴇ      : {}"
 _HOME_C = "**Some of the main features are:**\n\n ◍ ```Create a PDF from your images: simply send it in bot pms [png, jpg, jpeg]```\n ◍ ```Extract the text from the PDF: Helps to extract the text from the PDF file and send as separate message.```\n ◍ ```Convert the PDF to another file format: [images, txt, html, json, tar, rar]```\n ◍ ```Merge multiple PDFs into one: Multiple PDF files to combine into a single file```\n ◍ ```Split a PDF into separate pages: Large PDF file to split it into separate ones```\n ◍ ```Extract images from the PDF: [all,range,pages] as image, doc, zip, rar```\n ◍ ```Helps to reduce size by optimizing the images. Useful in sending file via email when it's too large```\n ◍ ```Fetches Metadata: title of the document, the author, the subject, the keywords associated with the document, and the creation and modification dates```\n ◍ ```Encrypt/Decrypt Pdfs Using passwords, Websites to Pdf, Rotate, Rename, stamb..```\n ◍ ```WaterMark, Combine, Zoom, Draw, Add/Delete pages, Ocr pdf..```\n ◍ ```text messages to pdf files, and Much More.. 😎```"
 _HOME_D = "`As you know, this is a free service, I cannot guarantee how long I can maintain this service..`😝\n\n ⚠️ INSTRUCTIONS ⚠️:\n ◍ ```Please note that spamming is generally not tolerated and can result in the user or bot being banned from the service```\n ◍ ```Wait for the bot to process the file: The bot will process the PDF file and perform the requested action. This may take a few minutes, depending on the size of the file and the complexity of the action being performed.```\n ◍ ```Once the bot has completed the action, it will send you the results. If the action was successful, you will receive the output. If the action was not successful, the bot will let you know and provide any relevant error messages.```\n ◍ ```Any user found to be distributing or sharing pornographic content on the bot will be permanently banned```\n**Send any image to start:** 😁"
 _SELECT_LANG = "Now, Select any language.."
-_DEFAULT = "@nihh_all"
+_DEFAULT = "DEFAULT ❌"
 _CUSTOM = "CUSTOM ✅"
 _CANT_USE = "This feature cannot be used ❌"
 _WAIT = "Waiting.. 🥱"
@@ -259,8 +259,7 @@ HOME = {
     "HomeA" : _HOME_A, "HomeB" : _HOME_B, "HomeC" : _HOME_C, "HomeD" : _HOME_D,
     "HomeACB" : { _SETTINGS : "Home|B", _CHANNEL : f"{str(settings.OWNED_CHANNEL)}",
                  _SOURCE : f"{str(settings.SOURCE_CODE)}"},
-    "HomeAdminCB" : { _SETTINGS : "Home|B",
-        "📊 SᴛᴀᴛᴜS" : f"status|home", _CLOSE : "close|mee" },
+    "HomeAdminCB" : { _SETTINGS : "Home|B", "📊 SᴛᴀᴛᴜS" : f"status|home", _BUY_ME_A_COFFEE : "COFFEE", _CLOSE : "close|mee" },
     "HomeBCB" : { _THUMB : "set|thumb", _NAME : "set|fname", _CAPTION : "set|capt", _BACK_HOME : "Home|B2A" },
     "HomeCCB" : { _BACK_HOME : "Home|A"}, "HomeDCB" : { _BACK_HOME : "Home|A" } }
 HomeG = { "HomeACB" : { _CHANNEL : f"{str(settings.OWNED_CHANNEL)}",
