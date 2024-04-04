@@ -259,15 +259,11 @@ _STOP_CB = { _STOP_CB_ : "ping_me"}
 RESTART = { "msg" : _RESTART, "btn" : { _CLOSE : "close|mee" }}
 HOME = {
     "HomeA" : _HOME_A, "HomeB" : _HOME_B, "HomeC" : _HOME_C, "HomeD" : _HOME_D,
-    "HomeACB" : { _SETTINGS : "Home|B", _CHANNEL : f"{str(settings.OWNED_CHANNEL)}",
+    "HomeACB" : { _CHANNEL : f"{str(settings.OWNED_CHANNEL)}",
                  _SOURCE : f"{str(settings.SOURCE_CODE)}"},
-    "HomeAdminCB" : { _SETTINGS : "Home|B", "📊 SᴛᴀᴛᴜS" : f"status|home", _BUY_ME_A_COFFEE : "https://www.buymeacoffee.com/nihaal", _CLOSE : "close|mee" },
-    "HomeBCB" : { _THUMB : "set|thumb", _NAME : "set|fname", _CAPTION : "set|capt", _BACK_HOME : "Home|B2A" },
+    "HomeAdminCB" : {"📊 SᴛᴀᴛᴜS" : f"status|home", _BUY_ME_A_COFFEE : "https://www.buymeacoffee.com/nihaal", _CLOSE : "close|mee" },
     "HomeCCB" : { _BACK_HOME : "Home|A"}, "HomeDCB" : { _BACK_HOME : "Home|A" } }
-HomeG = { "HomeACB" : { _CHANNEL : f"{str(settings.OWNED_CHANNEL)}",
-    _SOURCE : f"{settings.SOURCE_CODE}", _CLOSE : "close|mee" }, "HomeA" : _HOME_A}
 
-    { _SET_CAPT : "nabilanavab", _CHANGE : "set|capt+", _DELETE : "set|capt-", _BACK_HOME : "Home|B2S"}] }
 BOT_COMMAND = { "start" : _START }
 COFFEE = "https://www.buymeacoffee.com/nihaal"
 STATUS_MSG = {
