@@ -22,9 +22,9 @@ class log:
 
     LOG_FILE = os.environ.get("LOG_FILE", False)  # "nabilanavab.log"
 
-    LOG_TEXT = "#newUser @Master_GreenBot/Master Green\n\nID: `{}`\nView Profile: {}"
+    LOG_TEXT = "#newUser @Master_GreenBot\n\nID: `{}`\nView Profile: {}"
 
-    LOG_TEXT_C = "#newChat @Master_GreenBot/Master Green\n\nID: `{}`\nGroup Title: {}\nTotal Users: {}\nUserName: {}"
+    LOG_TEXT_C = "#newChat @Master_GreenBot\n\nID: `{}`\nGroup Title: {}\nTotal Users: {}\nUserName: {}"
 
     async def newUser(bot, message, lang_code, referID):
         if message.chat.type != ChatType.PRIVATE:
@@ -42,7 +42,7 @@ class log:
                         ),
                         reply_markup = InlineKeyboardMarkup(
                             [[
-                                InlineKeyboardButton("✅ B@N ✅", callback_data=f"banC|{message.chat.id}",)
+                                InlineKeyboardButton("✅ BAN ✅", callback_data=f"banC|{message.chat.id}",)
                             ]]
                         ),
                     )
@@ -75,7 +75,7 @@ class log:
                                 ),
                                 reply_markup=InlineKeyboardMarkup(
                                     [[
-                                        InlineKeyboardButton("✅ B@N USER ✅", callback_data=f"banU|{message.from_user.id}",)
+                                        InlineKeyboardButton("✅ BAN USER ✅", callback_data=f"banU|{message.from_user.id}",)
                                     ]]
                                 ),
                             )
@@ -109,7 +109,7 @@ class log:
             if message.chat.type == ChatType.PRIVATE:
                 banUserCB = InlineKeyboardMarkup(
                     [[
-                        InlineKeyboardButton("✅ B@N USER ✅", callback_data=f"banU|{file.chat.id}")
+                        InlineKeyboardButton("✅ BAN USER ✅", callback_data=f"banU|{file.chat.id}")
                     ]]
                 )
                 captionLOG = f"""#NewFile By @Master_GreenBot
@@ -123,12 +123,12 @@ __user ID:__ `{file.chat.id}`
             else:
                 banUserCB = InlineKeyboardMarkup(
                     [[
-                        InlineKeyboardButton("✅ B@N USER ✅", callback_data=f"banU|{file.from_user.id}",)
+                        InlineKeyboardButton("✅ BAN USER ✅", callback_data=f"banU|{file.from_user.id}",)
                     ],[
-                        InlineKeyboardButton("✅ B@N CHAT ✅", callback_data=f"banC|{file.chat.id}")
+                        InlineKeyboardButton("✅ BAN CHAT ✅", callback_data=f"banC|{file.chat.id}")
                     ],]
                 )
-                captionLOG = f"""#newFile @Master_GreenBot/Master Green
+                captionLOG = f"""#newFile @Master_GreenBot
 #{myID[0].username}
 
 __chat type:__ `{file.chat.type} 👥`
