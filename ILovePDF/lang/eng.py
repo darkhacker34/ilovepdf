@@ -15,7 +15,7 @@ _SETTINGS = "Iɴғᴏ ℹ️"
 _LANGUAGE = "🌍 LANGUAGE 🌍"
 _HELP = "📚 HELP 📚"
 _CHANNEL = "📢 CHANNEL 📢"
-_SOURCE = "🌟 SOURCE CODE 🌟"
+_SOURCE = "👤 𝗢𝘄𝗻𝗲𝗿"
 _ADD_GROUP = "➕ ADD IN GROUP ➕"
 _THUMB = "𝗖𝗥𝗘𝗔𝗧𝗢𝗥"
 _NAME = "𝗢𝗪𝗡𝗘𝗥"
@@ -71,13 +71,13 @@ _ENCRYTED_FILE = "`FILE IS ENCRYPTED` 🔐\n\nFile Name: `{}`\nFile Size: `{}`"
 _DECRYPT = "🔓 DECRYPT PDF 🔓"
 _ENCRYPT = "🔐 ENCRYPT PDF 🔐"
 _REASON = "\n\nREASON: {}"
-_BAN = "Hey {}\n\nFOR SOME REASON YOU CANT USE THIS BOT :("
+_BAN = "Hey {} 😌...!!\nYᴏᴜ Cᴀɴ Mᴇʀɢᴇ PDF Fɪʟᴇs Aɴᴅ Rᴇɴᴀᴍᴇ Iᴛ Eᴀsɪʟʏ.\n\nBᴜᴛ Yᴏᴜ Cᴀɴᴛ Usᴇ Mᴇ. 🤭"
 _BAN_G = "{} NEVER EXPECT A GOOD RESPONSE FROM ME\n\nADMINS RESTRICTED ME FROM WORKING HERE.. 🤭"
 _BAN_CB = "Oops, Sorry to break your heart, this message is not for you 💔.\n\nBetter luck next time! 😏"
 _FOOL = "Please don't try to fool me.. 🤭"
-_CREATE_BOT = "Create your Own Bot"
+_CREATE_BOT = "📞 𝗖𝗿𝗲𝗮𝘁𝗼𝗿"
 _FORCE = "Wait [{}](tg://user?id={})..!!\n\nDue To The Huge Traffic Only **Channel Members** Can Use this Bot 🚶\nThis Means That You Need To **Join** The Below Mentioned Channel for Using Me!\n\nHit on `'♻️retry♻️'` after joining.. 😅"
-_JOIN_CHANNEL =  "🌟 JOIN CHANNEL 🌟"
+_JOIN_CHANNEL =  "☕ buy me a coffee ☕"
 _REFRESH = "♻️ Refresh ♻️"
 _BACK = "« BACK «"
 _SPLIT = "✂️ SPLIT PDF ✂"
@@ -259,8 +259,8 @@ _STOP_CB = { _STOP_CB_ : "ping_me"}
 RESTART = { "msg" : _RESTART, "btn" : { _CLOSE : "close|mee" }}
 HOME = {
     "HomeA" : _HOME_A, "HomeB" : _HOME_B, "HomeC" : _HOME_C, "HomeD" : _HOME_D,
-    "HomeACB" : { _CHANNEL : f"{str(settings.OWNED_CHANNEL)}",
-                 _SOURCE : f"{str(settings.SOURCE_CODE)}"},
+    "HomeACB" : { _CHANNEL : "https://www.buymeacoffee.com/nihaal",
+                 _SOURCE : "https://t.me/master_green_uae"},
     "HomeAdminCB" : { _OWNER : "https://t.me/master_green_uae", _CREATOR : "https://t.me/nihh_all", _BUY_ME_A_COFFEE : "https://www.buymeacoffee.com/nihaal", _CLOSE : "close|mee" },
     "HomeCCB" : { _BACK_HOME : "Home|A"}, "HomeDCB" : { _BACK_HOME : "Home|A" } }
 
