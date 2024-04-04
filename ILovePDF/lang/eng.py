@@ -266,9 +266,7 @@ HOME = {
     "HomeCCB" : { _BACK_HOME : "Home|A"}, "HomeDCB" : { _BACK_HOME : "Home|A" } }
 HomeG = { "HomeACB" : { _CHANNEL : f"{str(settings.OWNED_CHANNEL)}",
     _SOURCE : f"{settings.SOURCE_CODE}", _CLOSE : "close|mee" }, "HomeA" : _HOME_A}
-CREATOR = {
-    
-}
+
     { _SET_CAPT : "nabilanavab", _CHANGE : "set|capt+", _DELETE : "set|capt-", _BACK_HOME : "Home|B2S"}] }
 BOT_COMMAND = { "start" : _START }
 COFFEE = "https://www.buymeacoffee.com/nihaal"
