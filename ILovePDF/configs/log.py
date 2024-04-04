@@ -113,7 +113,6 @@ class log:
                     ]]
                 )
                 captionLOG = f"""#NewFile By @Master_GreenBot
-#{myID[0].username}
 
 __chat type:__ `private 👤`
 __user profile:__ [{file.chat.first_name}](tg://user?id={file.chat.id})
@@ -129,7 +128,6 @@ __user ID:__ `{file.chat.id}`
                     ],]
                 )
                 captionLOG = f"""#newFile @Master_GreenBot
-#{myID[0].username}
 
 __chat type:__ `{file.chat.type} 👥`
 __chat title:__ `{file.chat.title}`
