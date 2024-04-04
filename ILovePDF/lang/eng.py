@@ -271,8 +271,6 @@ SETTINGS = {
     "feedbtn" : { _REPORT : settings.REPORT }, "chgLang" : { _SET_LANG : "nabilanavab"}, "askApi" : _ASK_API,
     "result" : [_RES_FAIL, _RES_SUCCESS], "waitApi" : { _OPEN_BROW : "https://www.convertapi.com/a/signin" }, "error" : _ERROR_DB,
     "back" : [{ _BACK_HOME : "Home|B2S" }, { _BACK_HOME : "Home|B2A" }], "feedback" : _LANG_FEED, "ask" : [_SEND, _SEND_FAST],
-    "_CREATOR", url="https://t.me/nihh_all"
-    "_OWNER" : "https://t.me/master_green_uae",
     "api" : [{ _SET_API : "nabilanavab", _ADD : "set|api+", _BACK_HOME : "Home|B2S"},
              { _SET_API : "nabilanavab", _CHANGE : "set|api+", _DELETE : "set|api-", _BACK_HOME : "Home|B2S"}],
     "capt" : [{ _SET_CAPT : "nabilanavab", _ADD : "set|capt+", _BACK_HOME : "Home|B2S"},
