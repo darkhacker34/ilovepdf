@@ -282,8 +282,8 @@ BAN = {
     "banCB" : {_CREATE_BOT : "https://t.me/nihh_all", _SOURCE : "https://t.me/master_green_uae", _CHANNEL : "https://www.buymeacoffee.com/nihaal"}}
 PDF_MESSAGE = {
     "pg" : _PG_NUM , "pdf" : _PDF_REPLY, "encryptCB" : { _DECRYPT : "#decrypt", _CLOSE : "close|all" },
-    "pdf_button" : { _MERGE[1:] : "#merge", _RENAME[1:] : "#rename" , _CLOSE : "close|all" },
-    "all_pdf_button" : { _MERGE[1:] : "#merge", _RENAME[1:] : "#rename", _CLOSE : "close|all" },
+    "pdf_button" : { _MERGE[1:] : "#merge", _CLOSE : "close|all" },
+    "all_pdf_button" : { _MERGE[1:] : "#merge", _CLOSE : "close|all" },
     "error" : _CODEC, "errorCB" : { _CODEC_CB : "error", _CLOSE : "close|all" }, "encrypt" : _ENCRYTED_FILE,}
 BUTTONS = {
     "format" : { _HELP : "nabilanavab|format", "1 × 1" : "#1-format", "✌ 1 × 2 ✌" : "#2-format-H", "✌ 2 × 1 ✌" : "#2-format-V",
