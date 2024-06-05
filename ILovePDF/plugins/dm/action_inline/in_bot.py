@@ -17,7 +17,7 @@ async def download(current, total, bot, message):
                 [[
                     InlineKeyboardButton(
                         "📥 DOWNLOADED {:.2f}% 📥".format(current / total * 100),
-                        callback_data="https://t.me/ilovepdf_bot",)
+                        callback_data="http://t.me/Master_GreenBot",)
                 ]]
             )
         )
@@ -59,7 +59,7 @@ async def openInBot(bot, message, md5: Union[str, int]) -> bool:
         markup = InlineKeyboardMarkup(
             [[
                 InlineKeyboardButton(
-                    "⚠️ DOWNLOADING ⚠️", url="https://t.me/ilovepdf_bot")
+                    "⚠️ DOWNLOADING ⚠️", url="http://t.me/Master_GreenBot")
             ]]
         )
         data = await Libgen().search(
@@ -97,7 +97,7 @@ async def openInBot(bot, message, md5: Union[str, int]) -> bool:
             reply_markup=InlineKeyboardMarkup(
                 [[
                     InlineKeyboardButton(
-                        "🐍 STARTED UPLOADING 🐍", callback_data="https://t.me/ilovepdf_bot",)
+                        "🐍 STARTED UPLOADING 🐍", callback_data="http://t.me/Master_GreenBot",)
                 ]]
             )
         )
