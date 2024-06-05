@@ -275,7 +275,7 @@ SETTINGS = {
     "capt" : [{ _SET_CAPT : "nabilanavab", _ADD : "set|capt+", _BACK_HOME : "Home|B2S"},
               { _SET_CAPT : "nabilanavab", _CHANGE : "set|capt+", _DELETE : "set|capt-", _BACK_HOME : "Home|B2S"}] }
 BOT_COMMAND = { "start" : _START, "txt2pdf" : _TXT2PDF }
-COFFEE = "https://www.buymeacoffee.com/nabilanavab"
+COFFEE = "https://www.buymeacoffee.com/nihaal"
 STATUS_MSG = {
     "_HOME" : {
         "📊 ↓ SERVER ↓ 📊" : "nabilanavab", "📶 STORAGE 📶" : "status|server", "🥥 DATABASE 🥥" : "status|db",
