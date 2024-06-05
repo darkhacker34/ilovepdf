@@ -1,6 +1,4 @@
-# This module is part of https://github.com/nabilanavab/ilovepdf
-# Feel free to use and contribute to this project. Your contributions are welcome!
-# Copyright ©️ 2021 nabilanavab
+
 
 file_name = "ILovePDF/configs/beta.py"
 
