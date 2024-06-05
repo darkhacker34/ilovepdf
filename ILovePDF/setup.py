@@ -7,12 +7,12 @@ file_name = "ILovePDF/setup.py"
 from setuptools import setup, find_packages
 
 setup(
-    name="nabilanava/ilovepdf",
+    name="darkhacker34/ilovepdf",
     version="5.0.1",
     description="Telegram PDF Bot",
-    author="Nabil A Navab",
-    author_email="nabil.a.navab@gmail.com",
-    url="https://github.com/nabilanavab/ilovepdf",
+    author="Nihal",
+    author_email="nihalthoppil16@gmail.com",
+    url="https://github.com/darkhacker34/ilovepdf",
     packages=find_packages(),
     install_requires=[
         "pyrogram==2.0.106",
