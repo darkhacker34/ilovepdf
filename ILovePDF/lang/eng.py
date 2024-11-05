@@ -310,18 +310,13 @@ BUTTONS = {
 PROGRESS = {"progress" : _PROGRESS , "upFileCB" : {f"📤 .. {_UPLOADING} .. 📤" : "nabilanavab"}, "cbPRO_D" : ["📤 {:.2f}% 📤", _CANCEL], "cbPRO_U" : ["📤 {:.2f}% 📤", _CANCEL]}
 GENERATE = {"noQueue" : _NO_QUEUE, "noImages" : _NO_IMG, "currDL" : _DL_IMG, "geting" : _GEN_PDF, "getFileNm" : _REN_PDF, "deleteQueue" : _DLT_QUEUE, "getingCB" : {_GEN_CB : "nabilanavab"},}
 DOCUMENT = {
-    "replyCB" : { _AIO : "aio" , _SINGLE_USE : "pdf", _CLOSE : "close|all" }, "_replyCB" : PDF_MESSAGE['pdf_button'],
+    "replyCB" : { _SINGLE_USE : "pdf", _CLOSE : "close|all" }, "_replyCB" : PDF_MESSAGE['pdf_button'],
     "reply" : PDF_MESSAGE['pdf'], "upFile" : _START_UPLOAD, "process" : _PROCESSING, "inWork" : _W_I_P, "big" : _BIG,
     "download" : _START_DOWNL, "refresh" : { _REFRESH : "{}" }, "dlImage" : _DL_IMG, "noAPI" : _NO_API, "error" : _ERROR,
     "takeTime" : _TAKE_TIME, "fromFile" : _CONVERT, "unsupport" : _UNSUPPORT, "cancelCB" : { _CANCEL : "close|me" }, "generate" : { _GENERATE : "generate" },
     "generateRN" : { _GENERATE : "generate", _RENAME : "generateREN" }, "setHdImg" : _HD, "setDefault" : { _BACK_DEFAULT : "close|hd" }, "useDOCKER" : _NOT_DOKR,
     "bigCB" : { _BIG_SUPP : "https://github.com/darkhacker34/ilovepdf" }, "imageAdded" : _IMG_ADDED}
-AIO = {
-    "true" : _TRUE, "false" : _FALSE, "aio" : _PASS_REQUIRED, "waitPASS" : _WAIT_TXT, "passMSG" : _AIO_QN,
-    "aio_button" : {_HELP :"nabilanavab|aioInput", _YES:"aioInput|enc", _NO :"aioInput|dec", _MOVE :"aioInput|dec" },
-    "out_button" : { _META : "nabilanavab|aio|met", _PREVIEW : "nabilanavab|aio|pre", _COMPRESS: "nabilanavab|aio|com", _B_TEXT_T : "nabilanavab|aio|txt", _ROTATE : "nabilanavab|aio|rot", _FORMAT : "nabilanavab|aio|for",
-        _ENCRYPT : "nabilanavab|aio|enc", _WATERMARK : "nabilanavab|aio|wat", _RENAME : "nabilanavab|aio|rnm", _BACK : "aio", _PROCEED : "processAIO" },
-    "out_values": ["aio|met|{F}", "aio|pre|{F}", "aio|com|{F}", "aio|txt|{F}", "aio|rot|{F}", "aio|for|{F}", "aio|enc|{F}", "aio|wat|{F}", "aio|rnm|{F}" ]}
+
 gDOCUMENT = { "admin" : _ADMIN_ONLY, "notDOC" : _NOT_DOC, "Gadmin" : _G_ADMIN, "adminO" : _NOT_YOUR }
 gDOCUMENT.update(DOCUMENT)
 noHelp = _WASTE
