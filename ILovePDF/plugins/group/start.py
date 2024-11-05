@@ -14,12 +14,9 @@ async def start(bot, message):
     try:
         await message.reply_chat_action(enums.ChatAction.TYPING)
         
-        await message.reply_photo(
-            photo=images.WELCOME_PIC,
-            caption=tTXT.format(message.chat.title, "𝐈 ❤️ 𝐏𝐃𝐅"),
-            reply_markup=tBTN,
-            quote=False,
-        )
+        await message.reply_text("𝗠𝗲𝗿𝗴𝗲 𝗬𝗼𝘂𝗿 𝗠𝗚 𝗤𝘂𝗼𝘁𝗮𝘁𝗶𝗼𝗻",
+                                 quote=False,
+                                )
         return await message.delete()
     except Exception as e:
         logger.exception("🐞 %s: %s" % (fileName, e), exc_info=True)
