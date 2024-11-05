@@ -13,11 +13,7 @@ from configs.config import images, dm
 async def start(bot, message):
     try:
         await message.reply_chat_action(enums.ChatAction.TYPING)
-        lang_code = await util.getLang(message.chat.id)
-
-        tTXT, tBTN = await util.translate(
-            text="HomeG['HomeA']", lang_code=lang_code, button="HomeG['HomeACB']"
-        )
+        
         await message.reply_photo(
             photo=images.WELCOME_PIC,
             caption=tTXT.format(message.chat.title, "𝐈 ❤️ 𝐏𝐃𝐅"),
