@@ -311,7 +311,7 @@ BUTTONS = {
 PROGRESS = {"progress" : _PROGRESS , "upFileCB" : {f"📤 .. {_UPLOADING} .. 📤" : "nabilanavab"}, "cbPRO_D" : ["📤 {:.2f}% 📤", _CANCEL], "cbPRO_U" : ["📤 {:.2f}% 📤", _CANCEL]}
 GENERATE = {"noQueue" : _NO_QUEUE, "noImages" : _NO_IMG, "currDL" : _DL_IMG, "geting" : _GEN_PDF, "getFileNm" : _REN_PDF, "deleteQueue" : _DLT_QUEUE, "getingCB" : {_GEN_CB : "nabilanavab"},}
 DOCUMENT = {
-    "replyCB" : { _AIO : "aio" , _SINGLE_USE : "pdf", _CLOSE : "close|all" }, "_replyCB" : PDF_MESSAGE['pdf_button'],
+    "replyCB" : { _SINGLE_USE : "pdf", _CLOSE : "close|all" }, "_replyCB" : PDF_MESSAGE['pdf_button'],
     "reply" : PDF_MESSAGE['pdf'], "upFile" : _START_UPLOAD, "process" : _PROCESSING, "inWork" : _W_I_P, "big" : _BIG,
     "download" : _START_DOWNL, "refresh" : { _REFRESH : "{}" }, "dlImage" : _DL_IMG, "noAPI" : _NO_API, "error" : _ERROR,
     "takeTime" : _TAKE_TIME, "fromFile" : _CONVERT, "unsupport" : _UNSUPPORT, "cancelCB" : { _CANCEL : "close|me" }, "generate" : { _GENERATE : "generate" },
